@@ -1,0 +1,12 @@
+#pragma once
+#include "xiayuObject.h"
+#include "xiayuWString.h"
+#include "xiayuFloat.h"
+#include "xiayuDouble.h"
+#include "xiayuInt.h"
+#include "xiayuWChar.h"
+#include "xiayuString.h"
+#include "xiayuChar.h"
+#include "xiayuAddon.h"
+#include "xiayuAction.h"
+#include "xiayuFunc.h"

@@ -1,0 +1,48 @@
+﻿生成启动时间为 2013/3/26 16:06:28。
+     1>项目“F:\myProject\xiayuLib\xiayuLib\xiayuLib.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
+         test.cpp
+     1>f:\myproject\xiayulib\xiayulib\xiayuwchar.h(26): warning C4244: “参数”: 从“WCHAR”转换到“char”，可能丢失数据
+     1>f:\myproject\xiayulib\xiayulib\xiayuaction.h(358): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\program files\microsoft visual studio 11.0\vc\include\xutility(2089): warning C4244: “=”: 从“wchar_t”转换到“char”，可能丢失数据
+                 f:\program files\microsoft visual studio 11.0\vc\include\xutility(2110): 参见对正在编译的函数 模板 实例化“_OutIt std::_Copy_impl<_InIt,_OutIt>(_InIt,_InIt,_OutIt,std::_Nonscalar_ptr_iterator_tag)”的引用
+                 with
+                 [
+                     _OutIt=char *,
+                     _InIt=wchar_t *
+                 ]
+                 f:\program files\microsoft visual studio 11.0\vc\include\xutility(2141): 参见对正在编译的函数 模板 实例化“_OutIt std::_Copy_impl<_InIt,char*>(_InIt,_InIt,_OutIt)”的引用
+                 with
+                 [
+                     _OutIt=char *,
+                     _InIt=wchar_t *
+                 ]
+                 f:\program files\microsoft visual studio 11.0\vc\include\xutility(2151): 参见对正在编译的函数 模板 实例化“_OutIt std::_Copy_impl<_InIt,_OutIt>(_InIt,_InIt,_OutIt,std::random_access_iterator_tag,std::random_access_iterator_tag)”的引用
+                 with
+                 [
+                     _OutIt=std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,
+                     _InIt=wchar_t *
+                 ]
+                 f:\program files\microsoft visual studio 11.0\vc\include\xutility(2176): 参见对正在编译的函数 模板 实例化“_OutIt std::_Copy_impl<wchar_t*,_OutIt>(_InIt,_InIt,_OutIt,std::true_type)”的引用
+                 with
+                 [
+                     _OutIt=std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,
+                     _InIt=wchar_t *
+                 ]
+                 f:\myproject\xiayulib\xiayulib\xiayuwstring.h(69): 参见对正在编译的函数 模板 实例化“_OutIt std::copy<std::_String_iterator<_Mystr>,std::_String_iterator<std::_String_val<_Val_types>>>(_InIt,_InIt,_OutIt)”的引用
+                 with
+                 [
+                     _OutIt=std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,
+                     _Mystr=std::_String_val<std::_Simple_types<wchar_t>>,
+                     _Val_types=std::_Simple_types<char>,
+                     _InIt=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>
+                 ]
+       Link:
+         F:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\myProject\xiayuLib\Debug\xiayuLib.exe" /INCREMENTAL /NOLOGO winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\myProject\xiayuLib\Debug\xiayuLib.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\myProject\xiayuLib\Debug\xiayuLib.lib" /MACHINE:X86 Debug\test.obj
+         xiayuLib.vcxproj -> F:\myProject\xiayuLib\Debug\xiayuLib.exe
+     1>已完成生成项目“F:\myProject\xiayuLib\xiayuLib\xiayuLib.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.81
